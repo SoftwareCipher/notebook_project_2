@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="notebook">
+            <!-- ----------- header ----------- -->
+            <div class="header">
+                <div class="icon">
+                    <a href="index.html"><img src="images/icon.png" alt="icon" id="back"></a>
+                </div>
+                <div class="name">
+                    <h2 id="selected-task-text">For home</h2>
+                </div>
+            </div>
+            <!-- ----------- input ----------- -->
+            <div class="input">
+                <div class="icon">
+                    <img src=" images/plus.png" alt="icon" class="plus">
+                </div>
+                <form class="input-note">
+                    <input type="text" class="input-name" id="item">
+                    <button id="button-input-value" name="submit">Add Task</button>
+                </form>
+            </div>
+            <!-- ----------- list ----------- -->
+            <div class="list">
+                <div class="list-table">
+                    <table>
+                        <thead>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
